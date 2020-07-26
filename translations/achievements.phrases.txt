@@ -1,0 +1,144 @@
+"Phrases"
+{
+	// Шаблон заполнения для достижения
+	// "Название достижения из конфига: name"	// отображаемое название в меню (название достижения)
+	// {
+		// "#format"			""
+		// "ru"				""
+		// "en"				""
+	// }
+	// "Название достижения из конфига: description" // описание достижения (что игрок должен сделать, {1} для вывода необходимого количества выполнений)
+	// {
+		// "#format"			"{1:d}"
+		// "ru"				""
+		// "en"				""
+	// }
+	// "Название достижения из конфига: reward" // награда за получение достижения (в виде текстового описания)
+	// {
+		// "#format"			""
+		// "ru"				""
+		// "en"				""
+	// }
+	// Примеры см. ниже
+	
+	"Exterminator I: name"
+	{
+		"#format"			""
+		"ru"				"Уничтожитель I"
+		"en"				"Exterminator I"
+	}
+	"Exterminator I: description"
+	{
+		"#format"			"{1:d}"
+		"ru"				"Убейте {1} игроков"
+		"en"				"Kill {1} players"
+	}
+	"Exterminator I: reward"
+	{
+		"#format"			""
+		"ru"				"5 кредитов"
+		"en"				"5 credits"
+	}
+	
+	"Exterminator II: name"
+	{
+		"#format"			""
+		"ru"				"Уничтожитель II"
+		"en"				"Exterminator II"
+	}
+	"Exterminator II: description"
+	{
+		"#format"			"{1:d}"
+		"ru"				"Убейте {1} игроков"
+		"en"				"Kill {1} players"
+	}
+	"Exterminator II: reward"
+	{
+		"#format"			""
+		"ru"				"50 кредитов"
+		"en"				"50 credits"
+	}
+	
+	"Exterminator III: name"
+	{
+		"#format"			""
+		"ru"				"Уничтожитель III"
+		"en"				"Exterminator III"
+	}
+	"Exterminator III: description"
+	{
+		"#format"			"{1:d}"
+		"ru"				"Убейте {1} игроков"
+		"en"				"Kill {1} players"
+	}
+	"Exterminator III: reward"
+	{
+		"#format"			""
+		"ru"				"500 кредитов"
+		"en"				"500 credits"
+	}
+	
+	"Headhunter I: name"
+	{
+		"#format"			""
+		"ru"				"Охотник за головами I"
+		"en"				"Headhunter I"
+	}
+	"Headhunter I: description"
+	{
+		"#format"			"{1:d}"
+		"ru"				"Убейте {1} игроков выстрелом в голову"
+		"en"				"Kill {1} players with headshot"
+	}
+	"Headhunter I: reward"
+	{
+		"#format"			""
+		"ru"				"10 кредитов"
+		"en"				"10 credits"
+	}
+	
+	"Headhunter II: name"
+	{
+		"#format"			""
+		"ru"				"Охотник за головами II"
+		"en"				"Headhunter II"
+	}
+	"Headhunter II: description"
+	{
+		"#format"			"{1:d}"
+		"ru"				"Убейте {1} игроков выстрелом в голову"
+		"en"				"Kill {1} players with headshot"
+	}
+	"Headhunter II: reward"
+	{
+		"#format"			""
+		"ru"				"100 кредитов"
+		"en"				"100 credits"
+	}
+	
+	"Headhunter III: name"
+	{
+		"#format"			""
+		"ru"				"Охотник за головами III"
+		"en"				"Headhunter III"
+	}
+	"Headhunter III: description"
+	{
+		"#format"			"{1:d}"
+		"ru"				"Убейте {1} игроков выстрелом в голову"
+		"en"				"Kill {1} players with headshot"
+	}
+	"Headhunter III: reward"
+	{
+		"#format"			""
+		"ru"				"1000 кредитов"
+		"en"				"1000 credits"
+	}
+	
+	""
+	{
+		"#format"			""
+		"ru"				""
+		"en"				""
+	}
+}

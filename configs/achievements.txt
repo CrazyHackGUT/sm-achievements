@@ -1,0 +1,67 @@
+"achievements"
+{
+	"Exterminator I"	                                    // название достижения (берется из файла перевода в трех видах: название, описание, награда)
+	{
+		"event"				"player_death"	                // событие, при котором можно получить это достижение
+		"executor"			"attacker"		                // кто должен выполнить это событие (userid или attacker)
+		
+		"condition"			""				                // условие получения этого достижения
+		"count"				"50"				            // сколько раз необходимо сделать
+		
+		"reward"			"sm_givecredits #{uid} 5"		// награда. алиасы: 
+															// {cid} - индекс клиента, 
+															// {uid} - юзерайди клиента, 
+															// {name} - имя игрока
+	}
+	"Exterminator II"
+	{
+		"event"				"player_death"
+		"executor"			"attacker"
+		
+		"condition"			""
+		"count"				"500"
+		
+		"reward"			"sm_givecredits #{uid} 50"
+	}
+	"Exterminator III"
+	{
+		"event"				"player_death"
+		"executor"			"attacker"
+		
+		"condition"			""
+		"count"				"5000"
+		
+		"reward"			"sm_givecredits #{uid} 500"
+	}
+	
+	"Headhunter I"
+	{
+		"event"				"player_death"
+		"executor"			"attacker"
+		
+		"condition"			"headshot"
+		"count"				"50"
+		
+		"reward"			"sm_givecredits #{uid} 10"
+	}
+	"Headhunter II"
+	{
+		"event"				"player_death"
+		"executor"			"attacker"
+		
+		"condition"			"headshot"
+		"count"				"500"
+		
+		"reward"			"sm_givecredits #{uid} 100"
+	}
+	"Headhunter III"
+	{
+		"event"				"player_death"
+		"executor"			"attacker"
+		
+		"condition"			"headshot"
+		"count"				"5000"
+		
+		"reward"			"sm_givecredits #{uid} 1000"
+	}
+}
